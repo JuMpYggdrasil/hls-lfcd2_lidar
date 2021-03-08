@@ -13,7 +13,7 @@ void setup()
 
     delay(5000);
 
-    lidarSensor.begin(Serial1, Serial);
+    lidarSensor.begin(Serial1, Serial);//Serial1 pin A9,A10  connect to LIDAR , Serial (micro-USB) connect to computer(MATLAB)  
     //lidarSensor.start();
 }
 
