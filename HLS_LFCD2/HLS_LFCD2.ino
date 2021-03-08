@@ -1,4 +1,4 @@
-#include "HLS_LFCD2.h"
+#include "HLS_LFCD2.h"//UPLOAD method -> STM32duino bootloader
 
 HLS_LFCD2 lidarSensor;
 uint16_t angleCnt = 0;
